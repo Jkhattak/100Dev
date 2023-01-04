@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,h2 {
+    color: red;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+button {
+    display: block;
+    align-items: center;
+    margin: 20px auto;
+}
