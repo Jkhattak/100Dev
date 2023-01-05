@@ -1,13 +1,17 @@
-document.getElementById('check').addEventListener('click', check)
+document.querySelector('#check').addEventListener('click', check)
 
-function check () {
-   let day =  document.querySelector('#today').value.toLowerCase
+function check() {
+   let day=document.querySelector('#today').value
 
    
+   
+   day = day.toLowerCase()
 
-   if (day ==='Tuesday' || day==='Thursday') {
-    day = day.toLowerCase
-    alert(day)
+   if (day =='tuesday' || day=='thursday') {
+    
+    alert('We have a class today')
+   } else {
+      alert('We do not have a class today')
    }
 
 }
