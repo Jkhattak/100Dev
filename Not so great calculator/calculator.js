@@ -29,6 +29,6 @@ function two () {
 function five () {
     total = total + 5
     document.querySelector('h2').innerHTML = total
-    document.querySelector('h2').style.background = 'red'
+    document.querySelector('h2').style.background = 'Red'
 }
 
