@@ -1,4 +1,5 @@
-// Create magic ball 8 
+// Create magic ball 8 and assign it random outputs
+// The ball should include 0 up to 8 (8 also included digits)
 
 userName = 'Batman'; //Enter the name
 userQuestion = 'Magic ball! GUIDE ME!!!';  //should be a string
