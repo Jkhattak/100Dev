@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    clear: both;
+}
+#yasuo, #yone, #zed {
+
+    height: 300px;
+    max-width: 50%;
+    margin-top: 5px;
+    margin-right: 20px;
+  }
+  #img {
+    /* align-items: center; */
+    text-align: center;
+    /* margin: 0 auto; */ */
+    
+  }
+
