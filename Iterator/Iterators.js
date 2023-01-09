@@ -10,9 +10,9 @@ fruits.forEach(fruit => console.log(`I want to eat a ${fruit}`))
 // Map funciton will return a new array compared to forEach function which will only return the same array values
 const numbers = [1, 2, 3, 4, 5]; 
  
-const bigNumbers = numbers.map(number => {
-  return number * 10;
-});
+// const bigNumbers = numbers.map(number => {
+//   return number * 10;
+// });
 
 const animals = ['Hen', 'elephant', 'llama', 'leopard', 'ostrich', 'Whale', 'octopus', 'rabbit', 'lion', 'dog'];
 
