@@ -56,3 +56,12 @@ function wordNumber(word, number) {
         console.log(word)
     }
 }
+
+function fun (x1,x2,x3,x4) {
+    let firstTwo = x1*x2
+    let lasttwo = x2 + x4
+    if (firstTwo > 100 && firstTwo > lasttwo) {
+
+        console.log(firstTwo)
+    }
+}
