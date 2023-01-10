@@ -32,3 +32,13 @@ function ageNum(age) {
     }
 
 }
+
+ageNum(age)
+
+document.querySelector('h1').addEventListener('click', run)
+
+function run () {
+    const age = document.querySelector('#danceDanceRevolution').value 
+
+    document.querySelector('p').innerText = age
+}
