@@ -48,3 +48,11 @@ function multiThree (x1,x2,x3) {
         alert('ZEBRA')
     }
 }
+
+//Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
+
+function wordNumber(word, number) {
+    for (i=0; i < number; i++){
+        console.log(word)
+    }
+}
