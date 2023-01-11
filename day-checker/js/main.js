@@ -1,4 +1,4 @@
-//Create a conditonal that checks the day
+
 
 
 //If Tuesday or Thursday, tell them they have class
@@ -25,7 +25,7 @@ if (day === 'Tuesday' || day === 'Thursday'){
     console.log("Wrong house")
 }
 
-//--- Harder
+
 //On click of the h1
 //Take the value from the input
 //Place the result of the conditional in the paragraph
