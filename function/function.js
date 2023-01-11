@@ -81,3 +81,14 @@ function fourNum(x1,x2,x3,x4){
         alert(reminder)
     }
 }
+
+//Create a function that takes in a number. The function should return an array that contains every number from 1 to that number as seperate elements
+
+
+function numb(x){
+    let arr = []
+    for (let i = 0; i < x; i++){
+       arr.push(i)
+    }
+    return arr
+}
