@@ -65,3 +65,19 @@ function fun (x1,x2,x3,x4) {
         console.log(firstTwo)
     }
 }
+
+function fourNum(x1,x2,x3,x4){
+    let diff = x1 * x2;
+    
+    if (diff > 100){
+        console.log(x3+x4)
+
+    } else if (diff < 100){
+
+        console.log(x3 - x4)
+    } else if (diff == 100) {
+        let multi = (x1*x2*x3)
+        let reminder = multi % x4
+        alert(reminder)
+    }
+}
