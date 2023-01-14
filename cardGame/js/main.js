@@ -24,8 +24,8 @@ function getFetch(){
   .then(response => response.json())
   .then(data => {
     console.log(data);
-    let val1 = data.cards[0].value;
-    let val2 = data.cards[1].value;
+    let val1 = cardValue(data.cards[0].value);
+    let val2 = cardValue(data.cards[1].value);
 
 
     document.querySelector('#player1').src = data.cards[0].image
