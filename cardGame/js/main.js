@@ -24,15 +24,19 @@ function getFetch(){
   .then(response => response.json())
   .then(data => {
     console.log(data);
-    let val1 = cardValue(data.cards[0].value);
-    let val2 = cardValue(data.cards[1].value);
-
-
-    document.querySelector('#player1').src = data.cards[0].image
+    let val1 = Number(cardValue(data.cards[0].value));
+    let val2 = Number(cardValue(data.cards[1].value));
+  document.querySelector('#player1').src = data.cards[0].image
+  document.querySelector('#player2').src = data.cards[1].image
+  if (val1 > val2) {
+    document.querySelector('h3').innerText = 'Player 1 WON'
+  } else if(val1 < val2){
+    document.querySelector('h3').innerText = 'Player 2  won'
+  } else {
+    document.querySelector('h3').innerText = 'WAR'
     
-    document.querySelector('#player2').src = data.cards[1].image
-    
-  })
+  }
+})
   .catch(error => {
     console.log('Error:', error);
   });
