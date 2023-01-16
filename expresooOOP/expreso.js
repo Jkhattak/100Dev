@@ -7,17 +7,23 @@ class ExpressoMachine{
     this.country = country
     this.origin = origin
     this.color = color
-}
-}
-function start(){
+
+    }
+ start(){
 
     console.log('Start to make espresso');
 }
-function stop() {
+ stop() {
     console.log('Turning off')
 
 }
-function steam (){
+steam (){
     console.log("Steam")
 
 }
+    }
+
+
+let coffe = new ExpressoMachine('Starbucks', 'America','India', 'Red')
+console.log(coffe)
+console.log(coffe.start())
