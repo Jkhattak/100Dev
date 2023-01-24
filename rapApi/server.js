@@ -14,7 +14,7 @@ app.get('/', (request, response) => {
 })
 
 app.get('/api/savage', (request, response) =>{
-    response.json
+    response.json(savage)
 })
 
 app.listen(port, ()=>{
