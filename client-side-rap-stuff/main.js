@@ -7,7 +7,7 @@ async function getRapName() {
     
 
     const res = await fetch('http://localhost:8000/api/savage')
-    const data = res.json()
+    const data = await res.json()
 
     console.log(data);
 }catch(err){
